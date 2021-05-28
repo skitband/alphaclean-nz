@@ -9,11 +9,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@nuxtjs/vuetify": "^1.11.3",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
-    "@nuxtjs/vuetify": "^1.11.3"
+    "vue-slick-carousel": "^1.0.6"
   },
-  "devDependencies": {
-    
-  }
+  "devDependencies": {}
 }

@@ -15,6 +15,9 @@
                                   <a class="nav-link" href="#howitworks">How it works</a>
                               </li>
                               <li class="nav-item">
+                                  <a class="nav-link" href="#aboutus">About Us </a>
+                              </li>
+                              <li class="nav-item">
                                   <a class="nav-link" href="#services">Our Services </a>
                               </li>
                               <li><a href="#" class="btn btn-info text-white">GET A QUOTE NOW</a></li>
