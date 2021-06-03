@@ -54,6 +54,20 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/recaptcha',
+    '@nuxtjs/axios',
+    ['nuxt-mail', {
+      message: {
+        to: 'skitband00@gmail.com',
+      },
+      smtp: {
+        host: 'smtp.mailtrap.io',
+        port: 2525,
+        auth: {
+          user: 'dfcbe052a5a5db',
+          pass: 'e3b8adda866571'
+        },
+      },
+    }],
   ],
 
   recaptcha: {

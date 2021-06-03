@@ -39,12 +39,17 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
+                    
                     <form class="form-wrap mt-5" method="post" @submit.prevent="onSubmit">
-                        <!-- <input type="text" placeholder="Select Services" class="btn-group1 mb-2"> -->
-                        <input type="text" placeholder="Full Name" class="btn-group1 mb-2 mt-2">
-                        <input type="email" placeholder="Email Address" class="btn-group1 mb-2 mt-2">
-                        <input type="number" placeholder="Contact Number" class="btn-group1 mb-2 mt-2">
-                        <textarea rows="5" class="btn-group1 mb-2 mt-2">Message</textarea>
+                        <div class="alert alert-success alert-dismissible fade show" role="alert" v-if="emailsent">
+                            <h4 class="alert-heading">Thank You!</h4>
+                            <p class="text-secondary">Your message has been successfully sent. We will contact you very soon!</p>
+                            <a class="btn-close" data-bs-dismiss="alert" aria-label="Close" @click.prevent="emailsent = false"></a>
+                        </div>
+                        <input v-model="formData.name" type="text" placeholder="Full Name" class="btn-group1 mb-2 mt-2" required>
+                        <input v-model="formData.email" type="email" placeholder="Email Address" class="btn-group1 mb-2 mt-2" required>
+                        <input v-model="formData.contact" type="number" placeholder="Contact Number" class="btn-group1 mb-2 mt-2" required>
+                        <textarea v-model="formData.message" rows="5" class="btn-group1 mb-2 mt-2" required>Message</textarea>
                         <recaptcha />
                         <button type="submit" class="btn-form mt-3 rounded text-uppercase">Submit </button>
                     </form>
@@ -59,6 +64,7 @@ export default {
     name: 'Booking',
     data () {
         return {
+            emailsent: false,
             price: 89.00,
             services: [
                 {
@@ -85,7 +91,16 @@ export default {
                 {
                     name: 'Bathroom Cleaning',
                 }
-            ]
+            ],
+            formData:
+                {
+                    name: '',
+                    email: '',
+                    contact: '',
+                    message: 'Message',
+                }
+
+            
         }
     },
     methods: {
@@ -93,9 +108,29 @@ export default {
         async onSubmit() {
             try {
                 const token = await this.$recaptcha.getResponse()
-                console.log('ReCaptcha token:', token)
-                // at the end you need to reset recaptcha
-                await this.$recaptcha.reset()
+                const output = `
+                    <p>Alpha Clean Inquiry</p>
+                    <h3>Contact Details</h3>
+                    <ul>  
+                        <li>Name: ${this.formData.name}</li>
+                        <li>Email: ${this.formData.email}</li>
+                        <li>Phone: ${this.formData.contact}</li>
+                    </ul>
+                    <h3>Message</h3>
+                    <p>${this.formData.message}</p>
+                `
+                const send = this.$mail.send({
+                    subject: 'Alpha Clean Inquiry',
+                    from: this.formData.email,
+                    name: this.formData.name,
+                    html: output
+                })
+                if(send){
+                    // at the end you need to reset recaptcha
+                    console.log('Form Submitted Success', token)
+                    this.emailsent = true;
+                    await this.$recaptcha.reset()
+                }
             } catch (error) {
                 console.log('Login error:', error)
             }
