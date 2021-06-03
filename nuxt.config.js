@@ -28,6 +28,13 @@ export default {
     ]
   },
 
+  publicRuntimeConfig: {
+    recaptcha: {
+      /* reCAPTCHA options */
+      siteKey: process.env.RECAPTCHA_SITE_KEY // for example
+    }
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/style.css',
@@ -46,7 +53,14 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/recaptcha',
   ],
+
+  recaptcha: {
+    hideBadge: true,
+    siteKey: process.env.RECAPTCHA_SITE_KEY, // Better would be from 'process.env.API_KEY' and with '.env' file
+    version: 2, // Or 3
+  },
 
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

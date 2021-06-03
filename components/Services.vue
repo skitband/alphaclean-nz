@@ -1,13 +1,13 @@
 <template>
   <section class="service-title" id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Check out some of our <span>services!</span></h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Check out some of our <span>services!</span></h2>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 </template>
 
 <script>

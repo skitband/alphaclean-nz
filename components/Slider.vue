@@ -4,8 +4,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="slider-content">
-                        <h1>Cleaning Made Easy</h1>
-                        <h3>Book expert home cleaners and handymen at a moment's notice. Just pick a time and we’ll do the rest.</h3>
+                        <h1 class="slider-heading">Cleaning Made Easy</h1>
+                        <h3 class="slider-subheading">Book expert home cleaners and handymen at a moment's notice. Just pick a time and we’ll do the rest.</h3>
                         <form class="form-wrap" action="booking.html">
                             <div class="btn-group" role="group" aria-label="Basic example">
                                 <input type="text" placeholder="Email Address" class="btn-group1">
@@ -27,8 +27,11 @@ export default {
 </script>
 
 <style scoped>
-h1{
-    color: #ffffff
+.slider-heading{
+    mix-blend-mode: color-dodge;
+}
+.slider-subheading{
+    mix-blend-mode: color-dodge;
 }
 input{
     background-color: white;

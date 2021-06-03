@@ -15,12 +15,12 @@
                                   <a class="nav-link" href="#howitworks">How it works</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="#aboutus">About Us </a>
+                                  <NuxtLink class="nav-link" to="/aboutus">About Us </NuxtLink>
                               </li>
                               <li class="nav-item">
                                   <a class="nav-link" href="#services">Our Services </a>
                               </li>
-                              <li><a href="#" class="btn btn-info text-white">GET A QUOTE NOW</a></li>
+                              <li><a href="#booking" class="btn btn-info text-white">GET A QUOTE NOW</a></li>
                           </ul>
                       </div>
                   </nav>

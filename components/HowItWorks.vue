@@ -10,23 +10,23 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="howit-wrap">
-                        <span class="pe-7s-date"></span>
+                        <img src="~/assets/images/calendar.png" alt="calendar" class="vector">
                         <h4>Book a Cleaning</h4>
-                        <p>Click the book now button to make a booking on your preffered date and time</p>
+                        <p>Submit the quotation form, fill all the required fields. and wait for a call from our team.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="howit-wrap">
-                        <span class="pe-7s-lock"></span>
+                        <img src="~/assets/images/phone.png" alt="phone" class="vector">
                         <h4>Confirm Booking</h4>
-                        <p>We will confirm your booking along with your instructions via secure transaction.</p>
+                        <p>We will confirm your quotation along with your instructions via secure transaction.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="howit-wrap">
-                        <span class="pe-7s-home"></span>
+                        <img src="~/assets/images/clean.png" alt="clean" class="vector">
                         <h4>We’ll Clean it</h4>
-                        <p>Our trusted & experienced maid will come to your door-step on the time for a cleaning</p>
+                        <p>Our trusted & experienced maid will come to your door-step on the time for a cleaning.</p>
                     </div>
                 </div>
             </div>
@@ -40,6 +40,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.vector{
+    width: 100px;
+    height: 100px;
+}
 </style>
