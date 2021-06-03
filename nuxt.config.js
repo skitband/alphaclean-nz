@@ -31,7 +31,7 @@ export default {
   publicRuntimeConfig: {
     recaptcha: {
       /* reCAPTCHA options */
-      siteKey: process.env.RECAPTCHA_SITE_KEY // for example
+      siteKey: '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI' // for example
     }
   },
 
