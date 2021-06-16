@@ -57,14 +57,14 @@ export default {
     '@nuxtjs/axios',
     ['nuxt-mail', {
       message: {
-        to: 'skitband00@gmail.com',
+        to: 'info@alphaclean.nz',
       },
       smtp: {
-        host: 'smtp.mailtrap.io',
-        port: 2525,
+        host: 'cp-wc01.iad01.ds.network',
+        port: 465,
         auth: {
-          user: 'dfcbe052a5a5db',
-          pass: 'e3b8adda866571'
+          user: 'info@alphaclean.nz',
+          pass: 'Dia12345!!'
         },
       },
     }],
