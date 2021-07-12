@@ -297,11 +297,11 @@ header {
 
 .btn-info {
     background: $primary-color;
-    border: 2px solid #2ea8b7;
+    border: 2px solid #17548d;
     padding: 9px 33px;
     transition: 0.3s;
     &:hover {
-        background: #2fb2c3;
+        background: #0e315c;
     }
 }
 
@@ -492,7 +492,7 @@ COUNDOWN TIMER
     width: 32%;
     background: $primary-color;
     color: $white;
-    border: solid 1px #2ea8b7;
+    border: solid 1px #17548d;
     cursor: pointer;
     &:focus {
         outline: none;

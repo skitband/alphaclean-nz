@@ -10,6 +10,9 @@
                         <a href="#"><img src="~/assets/images/clients/cg.png" class="img-fluid" alt="client logo"></a>
                     </div>
                     <div class="slick-items">
+                        <a href="#"><img src="~/assets/images/clients/f45.png" class="img-fluid" alt="client logo"></a>
+                    </div>
+                    <div class="slick-items">
                         <a href="#"><img src="~/assets/images/clients/hemp.png" class="img-fluid" alt="client logo"></a>
                     </div>
                     <div class="slick-items">
@@ -93,7 +96,7 @@ export default {
     height: 80px;
 }
 button.slick-prev:before, button.slick-next:before {
-    color: #45c3d3 !important;
+    color: #17548d !important;
 }
 .slick-items{
     display: inline-flex;

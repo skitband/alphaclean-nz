@@ -63,6 +63,6 @@ export default {
     height: 40px;
 }
 .highlight{
-    color: #45C3D3;
+    color: #17548d;
 }
 </style>

@@ -244,17 +244,17 @@ header {
   padding-right: 36px; }
 
 .navbar-light .navbar-nav .active > .nav-link {
-  color: #45c3d3; }
+  color: #17548d; }
 
 .btn-info {
-  background: #45c3d3;
-  border: 2px solid #2ea8b7;
+  background: #17548d;
+  border: 2px solid #17548d;
   padding: 9px 33px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s; }
   .btn-info:hover {
-    background: #2fb2c3; }
+    background: #0e315c; }
 
 .input-group-addon {
   padding: .5rem 0.15rem; }
@@ -413,9 +413,9 @@ COUNDOWN TIMER
   font-size: 25px;
   padding: 12px;
   width: 32%;
-  background: #45c3d3;
+  background: #17548d;
   color: #ffffff;
-  border: solid 1px #2ea8b7;
+  border: solid 1px #17548d;
   cursor: pointer; }
   .btn-form:focus {
     outline: none; }
@@ -436,8 +436,8 @@ COUNDOWN TIMER
   color: #3f4b5e;
   margin: 0 0 30px; }
   .center-block h2 span {
-    color: #45c3d3;
-    border-bottom: 3px solid #45c3d3; }
+    color: #17548d;
+    border-bottom: 3px solid #17548d; }
 
 .center-block h6 {
   text-align: center;
@@ -571,7 +571,7 @@ COUNDOWN TIMER
   margin: 70px 0 0; }
   .howit-wrap span {
     font-size: 130px;
-    color: #45c3d3; }
+    color: #17548d; }
   .howit-wrap h4 {
     padding: 32px 12px 0; }
   .howit-wrap p {
@@ -591,12 +591,12 @@ COUNDOWN TIMER
   background: #f6fbfc; }
 
 .testi-block {
-  height: 22vh;
+  height: 260px;
   position: relative;
   background: #ffffff;
-  border: 3px solid #d0f0f4;
+  border: 3px solid #639ad0;
   text-align: center;
-  padding: 29px 29px;
+  padding: 33px 29px;
   border-radius: 3px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -635,9 +635,9 @@ COUNDOWN TIMER
 
 .testi-block:before {
   border-color: rgba(208, 240, 244, 0);
-  border-top-color: #d0f0f4;
-  border-width: 25px;
-  margin-left: -36px; }
+  border-top-color: #639ad0;
+  border-width: 23px;
+  margin-left: -34px; }
 
 .testi-title {
   text-align: center;
@@ -747,7 +747,7 @@ figure.effect-lily:hover p {
   transition-duration: 0.35s; }
 
 .service-title {
-  background: #45c3d3;
+  background: #17548d;
   text-align: center;
   padding: 40px 0; }
   .service-title h2 {
@@ -779,15 +779,15 @@ figure.effect-lily:hover p {
     .service-link {
       margin-left: 0; } }
   .service-link h3 span {
-    color: #45c3d3;
-    border-bottom: 3px solid #45c3d3; }
+    color: #17548d;
+    border-bottom: 3px solid #17548d; }
   .service-link ul {
     margin: 40px 0 0;
     padding: 0; }
     .service-link ul li {
       list-style: none; }
       .service-link ul li i {
-        color: #45c3d3;
+        color: #17548d;
         padding-right: 12px; }
       .service-link ul li a {
         color: #8b9aab;
@@ -850,7 +850,7 @@ figure.effect-lily:hover p {
    FOOTER
    ============================================================== */
 footer {
-  background: #45c3d3;
+  background: #17548d;
   padding: 50px 0; }
 
 @media (max-width: 768px) {
@@ -881,7 +881,7 @@ footer {
   .social-icons a {
     width: 43px;
     height: 43px;
-    color: #98d5dd;
+    color: #17548d;
     border-radius: 50%;
     display: inline-block;
     -webkit-transition: 0.3s;
@@ -899,16 +899,16 @@ footer {
 .subscribe-form {
   padding: 17px 14px;
   border-radius: 2px;
-  border: 2px solid #168d9b; }
+  border: 2px solid #17548d; }
   .subscribe-form::-webkit-input-placeholder {
     /* Chrome */
-    color: #45c3d3; }
+    color: #17548d; }
 
 .form-inline .input-group {
   width: 100%; }
 
 .subscribe-btn {
-  background: #168d9b;
+  background: #0d2b53;
   color: #ffffff;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
@@ -917,9 +917,9 @@ footer {
   font-size: 23px;
   line-height: 0.7; 
   padding: 10px 20px;
-border: 1px solid #1eacbd; }
+border: 1px solid #0d2b53; }
   .subscribe-btn:hover {
-    background: #1eacbd; }
+    background: #0d2b53; }
   .subscribe-btn span {
     font-size: 65px;
     line-height: 0.7; }
@@ -1332,7 +1332,7 @@ border: 1px solid #1eacbd; }
       flex: 100%; } }
 
 .preference-title {
-  background: #45c3d3;
+  background: #17548d;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px; }
   .preference-title h4 {
@@ -1614,7 +1614,7 @@ text-align: justify; }
 
 .terms-reminder label {
   color: #ccc span a;
-    color-color: #45c3d3; }
+    color-color: #17548d; }
 
 .complete-booking {
   background: #88ce43;

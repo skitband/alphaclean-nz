@@ -3,7 +3,7 @@
     <Nav />
     <Slider />
     <Clients />
-    <HowItWorks />
+    <!-- <HowItWorks /> -->
     <Welcome />
     <Services />
     <ServicesCards />

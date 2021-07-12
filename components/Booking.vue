@@ -148,7 +148,7 @@ export default {
     font-weight: 300;
 }
 .pricing-card-title{
-    color: #37b8c9;
+    color: #17548d;
     font-size: 3rem;
     padding-top: 0px;
     margin-top: 0px;

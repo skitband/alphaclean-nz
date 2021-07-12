@@ -11,7 +11,7 @@
                             <li><NuxtLink to="/howitworks" class="links">How It Works</NuxtLink></li>
                             <li><NuxtLink to="/services" class="links">Our Services</NuxtLink></li>
                             <li><NuxtLink to="/privacy" class="links">Privacy & Policy</NuxtLink></li>
-                            <li><a href="#" class="btn btn-white text-info text-uppercase"><i class="fas fa-phone-alt"></i> Call 0273 008 399</a></li>
+                            <li><a href="#" class="btn btn-white text-uppercase"><i class="fas fa-phone-alt"></i> Call 0273 008 399</a></li>
                         </ul>
                     </div>
                 </div>
@@ -61,5 +61,6 @@ export default {
 .btn-white{
     background-color: #ffffff;
     padding: 3px 6px;
+    color: #17548d;
 }
 </style>

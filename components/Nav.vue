@@ -37,5 +37,14 @@ export default {
 </script>
 
 <style>
-
+.btn-check:focus+.btn-info, .btn-info:focus{
+    background-color: #0e315c;
+    border-color: #0e315c;
+    box-shadow: 0 0 0 0.25rem #17548d;
+}
+.btn-check:active+.btn-info, .btn-check:checked+.btn-info, .btn-info.active, .btn-info:active, .show>.btn-info.dropdown-toggle{
+    background-color: #0e315c;
+    border-color: #0e315c;
+    box-shadow: 0 0 0 0.25rem #17548d;
+}
 </style>
