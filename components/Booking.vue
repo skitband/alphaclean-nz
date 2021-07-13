@@ -4,7 +4,7 @@
             <div class="row gx-5">
                 <div class="col-md-6 col-sm-12">
                     <h3 class="text-heading">Don’t wait, Book a cleaning now.</h3>
-                    <span class="sub-heading">Book expert home cleaners and handymen at a moment's notice. Just pick a time and we’ll do the rest.</span>
+                    <span class="sub-heading">Book expert cleaners and handymen at a moment's notice. Just pick a time and we’ll do the rest.</span>
                     <div class="row mb-3 mt-5 justify-content-center">
                         <div class="col-md-6 col-sm-6 text-center">
                             <div class="card mb-4 rounded-3 shadow-sm">
