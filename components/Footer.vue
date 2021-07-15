@@ -4,12 +4,12 @@
           <div class="container">
             <div class="row">
 
-            <div class="col-4 pr-md-5 mb-4 mb-md-0">
+            <div class="col-md-4 pr-md-5 mb-4 mb-md-0">
               <h3>About Us</h3>
               <p class="mb-4">New Zealand owned and operated business, based in Wellington offering high quality industrial and and residential cleaning services.</p>
               <img src="~/assets/images/logo-whitebg.png" alt="logo">
             </div>
-            <div class="col-3 mb-4 mb-md-0 offset-md-1">
+            <div class="col-md-3 mb-4 mb-md-0 offset-md-1">
               <h3>Our Location</h3>
               <ul class="list-unstyled quick-info mb-4">
                 <li><i class="fas fa-map-marked-alt"></i><span style="margin-right: 5px;"></span> 43 Rotherham Terrace, Miramar <br> 6022 , New Zealand</li>  
@@ -22,8 +22,8 @@
             </div>
 
 
-            <div class="col-4 mb-4 mb-md-0 " >
-              <h3 style="font-size: 2rem; text-align: right;">DEEP CLEANING STARTING FROM <span style="text-decoration: underline; font-weight: bolder;">$150.00</span></h3>
+            <div class="col-md-4 mb-4 mb-md-0 " >
+              <h3 style="font-size: 2rem; text-align: left;">DEEP CLEANING STARTING FROM <span style="text-decoration: underline; font-weight: bolder;">$150.00</span></h3>
               <form class="subscribe" action="booking.html">
                 <input type="email" class="form-control" placeholder="Subscribe To Our Mailing List" required>
                 <button type="submit" class="btn btn-submit">Send</button>
