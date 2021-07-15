@@ -18,7 +18,9 @@
                                     <div class="col-md-12">
                                         <div class="preference-about_home justify-content-center">
                                             <h4>Who we are</h4>
-                                            <p>Our website address is <a href="https://alphacleaning.co.nz" target="_blank" class="text-info">https://alphacleaning.co.nz </a></p>
+
+                                            <p>New Zealand owned and operated business, based in Wellington offering high quality industrial and and residential cleaning services.</p>
+                                            <p>Our website address is <a href="https://alphaclean.nz" target="_blank" class="text-info">https://alphaclean.nz </a></p>
 
                                             <h4>What personal data we collect and why we collect it</h4>
                                             <br>

@@ -1,46 +1,61 @@
 <template>
-  <footer>
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-3">
-                    <div class="foot-box">
-                        <h6>QUICK LINKS</h6>
-                        <ul>
-                            <li><NuxtLink to="/" class="links">Home</NuxtLink></li>
-                            <li><NuxtLink to="/aboutus" class="links">About Us</NuxtLink></li>
-                            <li><NuxtLink to="/howitworks" class="links">How It Works</NuxtLink></li>
-                            <li><NuxtLink to="/services" class="links">Our Services</NuxtLink></li>
-                            <li><NuxtLink to="/privacy" class="links">Privacy & Policy</NuxtLink></li>
-                            <li><a href="#" class="btn btn-white text-uppercase"><i class="fas fa-phone-alt"></i> Call 0273 008 399</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="foot-box">
-                        <h6>OUR LOCATIONS</h6>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11987.519370788337!2d174.8206183!3d-41.3114775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf21547408f4053c6!2sAlpha%20Clean%20Limited!5e0!3m2!1sen!2sph!4v1622708950620!5m2!1sen!2sph&" 
-                        width="100%" height="200px" style="border:0;" allowfullscreen="yes" loading="lazy"></iframe>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="subscribe">
-                        <h6>SUBSCRIBE</h6>
-                        <form class="form-inline" action="booking.html">
-                            <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                <input type="email" class="form-control subscribe-form" id="inlineFormInputGroup" placeholder="Subscribe To Our Mailing List">
-                                <button type="submit" class="input-group-addon subscribe-btn"><span class="far fa-paper-plane"></span></button>
-                            </div>
-                        </form>
+  <footer class="footer-32892 pb-0">
+      <div class="site-section">
+          <div class="container">
+            <div class="row">
+
+            <div class="col-4 pr-md-5 mb-4 mb-md-0">
+              <h3>About Us</h3>
+              <p class="mb-4">New Zealand owned and operated business, based in Wellington offering high quality industrial and and residential cleaning services.</p>
+              <img src="~/assets/images/logo-whitebg.png" alt="logo">
+            </div>
+            <div class="col-3 mb-4 mb-md-0 offset-md-1">
+              <h3>Our Location</h3>
+              <ul class="list-unstyled quick-info mb-4">
+                <li><i class="fas fa-map-marked-alt"></i><span style="margin-right: 5px;"></span> 43 Rotherham Terrace, Miramar <br> 6022 , New Zealand</li>  
+                <li><a href="tel:+640273008399" class="d-flex align-items-center"><i class="fas fa-phone-alt"></i>  <span style="margin-right: 5px;"></span> +64 027 3008399</a></li>
+                <li><a href="mailto:info@alphaclean.nz" class="d-flex align-items-center"><i class="fas fa-envelope"></i>  <span style="margin-right: 5px;"></span> info@alphaclean.nz</a></li>
+                
+              </ul>
+              <p></p>
+              <!-- <img src="~/assets/images/logo-whitebg.png" alt="logo"> -->
+            </div>
+
+
+            <div class="col-4 mb-4 mb-md-0 " >
+              <h3 style="font-size: 2rem; text-align: right;">DEEP CLEANING STARTING FROM $150.00</h3>
+              <form class="subscribe" action="booking.html">
+                <input type="email" class="form-control" placeholder="Subscribe To Our Mailing List" required>
+                <button type="submit" class="btn btn-submit">Send</button>
+              </form>
+            </div>
+            
+            <div class="col-12">
+              <div class="py-5 footer-menu-wrap align-items-center">
+                    <div>
                         <div class="social-icons">
-                            <a href="#"><i class="fab fa-facebook-square social-media-icons" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/Alpahclean" target="_new"><i class="fab fa-facebook-square social-media-icons" aria-hidden="true"></i></a>
                             <a href="#"><i class="fab fa-instagram-square social-media-icons" aria-hidden="true"></i></a>
                             <a href="#"><i class="fab fa-twitter-square social-media-icons" aria-hidden="true"></i></a>
                             <a href="#"><i class="fab fa-google-plus-square social-media-icons" aria-hidden="true"></i></a>
                         </div>
                     </div>
-                </div>
+                <ul class="list-unstyled footer-menu mr-auto">
+                  <li><a href="#howitworks">How It Works</a></li>
+                  <li><NuxtLink to="/aboutus">About Us</NuxtLink></li>
+                  <li><a href="#services">Our Services</a></li>
+                  <li><NuxtLink to="/privacy">Privacy & Policy</NuxtLink></li>
+                </ul>
+                
+                
+              </div>
+              
             </div>
+            
+          </div>
         </div>
+      </div>
+        
     </footer>
 </template>
 
