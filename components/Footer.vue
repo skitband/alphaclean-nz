@@ -23,7 +23,7 @@
 
 
             <div class="col-4 mb-4 mb-md-0 " >
-              <h3 style="font-size: 2rem; text-align: right;">DEEP CLEANING STARTING FROM $150.00</h3>
+              <h3 style="font-size: 2rem; text-align: right;">DEEP CLEANING STARTING FROM <span style="text-decoration: underline; font-weight: bolder;">$150.00</span></h3>
               <form class="subscribe" action="booking.html">
                 <input type="email" class="form-control" placeholder="Subscribe To Our Mailing List" required>
                 <button type="submit" class="btn btn-submit">Send</button>
