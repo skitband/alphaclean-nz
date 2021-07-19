@@ -6,14 +6,14 @@
 
             <div class="col-md-4 pr-md-5 mb-4 mb-md-0">
               <h3>About Us</h3>
-              <p class="mb-4">New Zealand owned and operated business, based in Wellington offering high quality industrial and and residential cleaning services.</p>
+              <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <NuxtLink to="/aboutus" class="text-white">read more...</NuxtLink></p>
               <img src="~/assets/images/logo-whitebg.png" alt="logo">
             </div>
             <div class="col-md-3 mb-4 mb-md-0 offset-md-1">
               <h3>Our Location</h3>
               <ul class="list-unstyled quick-info mb-4">
-                <li><i class="fas fa-map-marked-alt"></i><span style="margin-right: 5px;"></span> 43 Rotherham Terrace, Miramar <br> 6022 , New Zealand</li>  
-                <li><a href="tel:+640273008399" class="d-flex align-items-center"><i class="fas fa-phone-alt"></i>  <span style="margin-right: 5px;"></span> +64 027 3008399</a></li>
+                <li><i class="fas fa-map-marked-alt"></i><span style="margin-right: 5px;"></span> Wellington, New Zealand</li>  
+                <li><a href="tel:+640273008399" class="d-flex align-items-center"><i class="fas fa-phone-alt"></i>  <span style="margin-right: 5px;"></span> +64 0273 008 399</a></li>
                 <li><a href="mailto:info@alphaclean.nz" class="d-flex align-items-center"><i class="fas fa-envelope"></i>  <span style="margin-right: 5px;"></span> info@alphaclean.nz</a></li>
                 
               </ul>
@@ -23,7 +23,7 @@
 
 
             <div class="col-md-4 mb-4 mb-md-0 " >
-              <h3 style="font-size: 2rem; text-align: left;">DEEP CLEANING STARTING FROM <span style="text-decoration: underline; font-weight: bolder;">$150.00</span></h3>
+              <h3 style="font-size: 2rem; text-align: left;">Get In Touch With Us!</h3>
               <form class="subscribe" action="booking.html">
                 <input type="email" class="form-control" placeholder="Subscribe To Our Mailing List" required>
                 <button type="submit" class="btn btn-submit">Send</button>
