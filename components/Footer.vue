@@ -6,7 +6,9 @@
 
             <div class="col-md-4 pr-md-5 mb-4 mb-md-0">
               <h3>About Us</h3>
-              <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <NuxtLink to="/aboutus" class="text-white">read more...</NuxtLink></p>
+              <p class="mb-4">
+                <!-- <NuxtLink to="/aboutus" class="text-white">read more...</NuxtLink> -->
+                </p>
               <img src="~/assets/images/logo-whitebg.png" alt="logo">
             </div>
             <div class="col-md-3 mb-4 mb-md-0 offset-md-1">
