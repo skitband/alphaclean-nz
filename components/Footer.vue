@@ -6,8 +6,10 @@
 
             <div class="col-md-4 pr-md-5 mb-4 mb-md-0">
               <h3>About Us</h3>
-              <p class="mb-4">
-                <!-- <NuxtLink to="/aboutus" class="text-white">read more...</NuxtLink> -->
+                <p class="mb-4">
+                  When it comes to cleaning, serious does not even cover it. Alpha Clean does! We provide professional cleaning services to the commercial units
+Our job is to make sure that not only things smell and look new but are cleaned to a high standard. 
+                <NuxtLink to="/aboutus" class="text-white">read more...</NuxtLink>
                 </p>
               <img src="~/assets/images/logo-whitebg.png" alt="logo">
             </div>
